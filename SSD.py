@@ -8,8 +8,7 @@ def template_matching_ssd(src, tmp):
 
     SSD = np.empty((h - h2, w - w2))
     arr = []
-
-    # 走査
+    
     for dy in range(0, h - h2):
         for dx in range(0, w - w2):
             # 二乗誤差の和を計算
@@ -19,8 +18,6 @@ def template_matching_ssd(src, tmp):
 
     print(SSD)
 
-    # 最小ではなく、閾値を定める
-    # pt = np.unravel_index(score.argmin(), score.shape)
     for ar in range(len(SSD)):
         for el in range(len(SSD[ar])):
             if SSD[ar, el] < 150:
