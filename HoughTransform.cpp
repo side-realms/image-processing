@@ -28,7 +28,7 @@ int main(int argc, const char* argv[])
 
         cv::HoughLinesP(
             edge,           
-            lines,          
+            lines, //ここに出力，配列として
             1,              
             CV_PI / 180.0,  
             80,             
