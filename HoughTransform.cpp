@@ -58,3 +58,5 @@ int main(int argc, const char* argv[])
 
     return hr;
 }
+
+//ref:http://maverickproj.web.fc2.com/OpenCV_45.html
