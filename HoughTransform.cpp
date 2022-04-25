@@ -13,7 +13,7 @@ int main(int argc, const char* argv[])
         cv::Mat src, edge, dst;
         std::vector<cv::Vec4i> lines;
 
-        src = cv::imread("C:\\Users\\oslab\\Documents\\laser_mean\\beehive\\2.5.png", cv::IMREAD_GRAYSCALE);
+        src = cv::imread("C:\\Users\\.~~png", cv::IMREAD_GRAYSCALE);
 
         cv::namedWindow("src", 1);
         imshow("src", src);
