@@ -4,3 +4,4 @@
 <strong>SSD.cpp</strong>：SSD斜線検知<br>
 <strong>template.cpp</strong>：テンプレートマッチング<br>
 <strong>tracking2.py</strong>：動画からテンプレートマッチング<br>
+<strong>tracking2.py</strong>：顔認識<br>
