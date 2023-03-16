@@ -3,3 +3,4 @@
 <strong>HoughTransform.cpp</strong>：ハフ変換<br>
 <strong>SSD.cpp</strong>：SSD斜線検知<br>
 <strong>template.cpp</strong>：テンプレートマッチング<br>
+<strong>tracking2.py</strong>：動画からテンプレートマッチング<br>
